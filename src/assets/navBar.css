@@ -1,0 +1,10 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+}
+.navBar .active,
+.navBar a:hover {
+  position: relative;
+  margin-top: -10px;
+  text-decoration: underline;
+}
