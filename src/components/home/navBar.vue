@@ -3,14 +3,14 @@
     <!--<div v-for="item in routesData">
       <router-link :to="item.path">{{item.name}}</router-link>
     </div>-->
-    <router-link to="/"><span>首页</span></router-link>
-    <router-link to="/1"><span>HTML&CSS</span></router-link>
-    <router-link to="/2"><span>ES5&ES6</span></router-link>
-    <router-link to="/3"><span>VUE</span></router-link>
-    <router-link to="/4"><span>REACT</span></router-link>
-    <router-link to="/5"><span>NODE</span></router-link>
-    <router-link to="/6"><span>MONGODB</span></router-link>
-    <router-link to="/7"><span>其他</span></router-link>
+    <router-link to="/">首页</router-link>
+    <router-link to="/1">HTML&CSS</router-link>
+    <router-link to="/2">ES5&ES6</router-link>
+    <router-link to="/3">VUE</router-link>
+    <router-link to="/4">REACT</router-link>
+    <router-link to="/5">NODE</router-link>
+    <router-link to="/6">MONGODB</router-link>
+    <router-link to="/7">其他</router-link>
   </div>
 </template>
 
