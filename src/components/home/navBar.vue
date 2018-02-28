@@ -3,9 +3,9 @@
     <!--<div v-for="item in routesData">
       <router-link :to="item.path">{{item.name}}</router-link>
     </div>-->
-    <router-link to="/">首页</router-link>
-    <router-link to="/1">HTML&CSS</router-link>
-    <router-link to="/2">ES5&ES6</router-link>
+    <router-link to="/home"><span>首页0</span></router-link>
+    <router-link to="/htmlCss"><span>HTML&CSS</span></router-link>
+    <router-link to="/es5Es6"><span>ES5&ES6</span></router-link>
     <router-link to="/3">VUE</router-link>
     <router-link to="/4">REACT</router-link>
     <router-link to="/5">NODE</router-link>
